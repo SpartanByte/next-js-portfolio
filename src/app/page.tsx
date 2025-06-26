@@ -1,8 +1,11 @@
 'use client'
 
-import Navbar from '../components/Navbar'
+import About from '../components/About'
 import Load from '../components/Load'
-import Toggle from '../components/Toggle'
+import Navbar from '../components/Navbar'
+import Skills from '../components/Skills'
+import Toggle from '../components/sub/Toggle'
+
 import { useState, useRef, useEffect } from 'react'
 
 export default function Home() {
@@ -31,10 +34,13 @@ export default function Home() {
   }, [])
   return (
     <>
-      <Navbar id={id} />
-      <div className="w-min" ref={compsRef}>
-
-      </div>
+      <Toggle>
+        <Navbar id={id} />
+        <div className="w-full" ref={compsRef}>
+          <About />
+          <Skills />
+        </div>
+      </Toggle>
     </>
   );
 }

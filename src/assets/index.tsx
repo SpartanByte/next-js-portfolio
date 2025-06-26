@@ -97,5 +97,16 @@ export const backendSkills = [
     name: 'Ruby on Rails',
     icon:  '/icons/png/technologies/ruby.png',
   },
+{
+    id: 'mysql',
+    name: 'MySQL',
+    icon:  '/icons/png/technologies/database.png',
+  },
 ]
 
+// Toggle
+import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
+import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
+
+export const sunIcon = <SunFoggyFillIcon />
+export const moonIcon = <MoonFoggyFillIcon />
