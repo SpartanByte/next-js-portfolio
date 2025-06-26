@@ -4,9 +4,9 @@ import { navbarData, copyRightIcon } from '../assets'
 const Navbar = ({ id }) => {
     return(
         <><div className="w-[70px] h-full fixed left-0 top-0 flex flex-col justify-between border-r border-gray-200 px-4 py-10 xl:py-6 z-10">
-            <a href="/#home">
+            {/* <a href="/#home">
                 <span className="text-3xl font-semibold text-red-400">Home</span>.
-            </a>
+            </a> */}
              <div className="flex flex-col gap-y-3 xl:gap-y-1 sm:gap-y-2 xs:gap-y-0">
         {navbarData.map((item, i) => (
           <a href={`/#${item.id}`} key={i} className="group flex flex-col items-center gap-y-2">
@@ -17,7 +17,12 @@ const Navbar = ({ id }) => {
                   : 'text-yellow-600 scale-100 xl:scale-90 xs:scale-70'
               }`}
             >
-              {item.icon}
+              {/* {item.icon} */}
+            <img
+                src={item.icon}
+                alt="A descriptive icon"
+                style={{ width: '32px', height: '32px' }}
+            />
             </span>
             <span
               className={`text-[10px] tracking-wide opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 text-center dark:text-white ${
