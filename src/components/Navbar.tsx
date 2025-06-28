@@ -17,7 +17,6 @@ const Navbar = ({ id }) => {
                   : 'text-yellow-600 scale-100 xl:scale-90 xs:scale-70'
               }`}
             >
-              {/* {item.icon} */}
             <img
                 src={item.icon}
                 alt="A descriptive icon"
@@ -35,18 +34,8 @@ const Navbar = ({ id }) => {
         ))}
       </div>
         </div>
-        <div>
-            {/* Fix parent element that is needed. This shouldn't be wrapped in a JSX element */}
-            {/* 
-            Add this back in when other styling is completed
-            <p className="flex items-center justify-center text-[13px] xs:text-[11px] text-gray-500 mt-6">
-                <span className="absolute left-1/2 w-max flex items-center -rotate-90 origin-bottom-left tracking-wider dark:text-gray-200 transition-colors">
-                    {copyRightIcon} 2025 - {new Date().getFullYear()}
-                    Hello, Hello
-                </span>
-            </p>
-            */}
-        </div></>
+       
+        </>
     );
 }
 
