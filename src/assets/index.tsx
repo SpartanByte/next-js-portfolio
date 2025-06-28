@@ -33,20 +33,21 @@ export const navbarData = [
     name: 'Home',
     icon: '/icons/png/interface/home.png',
   },
-  {
-    id: 'about',
-    name: 'AboutMe',
-    icon: '/icons/png/interface/user.png',
+    {
+    id: 'skills',
+    name: 'MySkills',
+    icon: '/icons/png/interface/skills-list.png',
   },
   {
     id: 'experience',
     name: 'MyExperience',
     icon:  '/icons/png/interface/experience.png',
   },
-  {
-    id: 'skills',
-    name: 'MySkills',
-    icon: '/icons/png/interface/skills-list.png',
+
+{
+    id: 'about',
+    name: 'AboutMe',
+    icon: '/icons/png/interface/user.png',
   },
   {
     id: 'projects',

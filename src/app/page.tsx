@@ -1,6 +1,7 @@
 'use client'
 
 import About from '../components/About'
+import Experience from '../components/Experience'
 import Load from '../components/Load'
 import Navbar from '../components/Navbar'
 import Skills from '../components/Skills'
@@ -37,8 +38,9 @@ export default function Home() {
       <Toggle>
         <Navbar id={id} />
         <div className="w-full" ref={compsRef}>
-          <About />
           <Skills />
+          <Experience />
+          <About />
         </div>
       </Toggle>
     </>
