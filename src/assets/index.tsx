@@ -20,6 +20,13 @@ import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon' // For project
 
 import Toggle from '../components/Toggle'
 
+// Toggle
+import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
+import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
+
+export const sunIcon = <SunFoggyFillIcon />
+export const moonIcon = <MoonFoggyFillIcon />
+
 export const navbarData = [
   {
     id: 'home',
@@ -104,9 +111,37 @@ export const backendSkills = [
   },
 ]
 
-// Toggle
-import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
-import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
-
-export const sunIcon = <SunFoggyFillIcon />
-export const moonIcon = <MoonFoggyFillIcon />
+export const experienceData = [
+  {
+    id: 'one',
+    year: 1,
+    title: 'title',
+    company: 'companyName',
+    location: 'PHP',
+    description: '/icons/png/technologies/php.png',
+  },
+  {
+    id: 'two',
+    year: 2,
+    title: 'title',
+    company: 'companyName',
+    location: 'PHP',
+    description: '/icons/png/technologies/php.png',
+  },
+  {
+    id: 'three',
+    year: 3,
+    title: 'title',
+    company: 'companyName',
+    location: 'PHP',
+    description: '/icons/png/technologies/php.png',
+  },
+{
+    id: 'four',
+    year: 4,
+    title: 'title',
+    company: 'companyName',
+    location: 'PHP',
+    description: '/icons/png/technologies/php.png',
+  },
+]
