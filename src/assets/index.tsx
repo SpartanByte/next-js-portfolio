@@ -27,6 +27,22 @@ import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
 export const sunIcon = <SunFoggyFillIcon />
 export const moonIcon = <MoonFoggyFillIcon />
 
+// Navigation Icons
+import StarFillIcon from 'remixicon-react/StarFillIcon'
+import StarHalfLineIcon from 'remixicon-react/StarHalfLineIcon'
+import ArrowLeftSLineIcon from 'remixicon-react/ArrowLeftSLineIcon'
+import ArrowRightSLineIcon from 'remixicon-react/ArrowRightSLineIcon'
+import DownloadLineIcon from 'remixicon-react/DownloadLineIcon'
+import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
+
+export const downloadIcon = <DownloadLineIcon />
+export const arrowLeftIcon = <ArrowLeftSFillIcon />
+
+
+/* eslint-disable react/jsx-key */
+export const starIcons = [<StarFillIcon />, <StarHalfLineIcon />]
+export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />]
+
 export const navbarData = [
   {
     id: 'home',
@@ -35,18 +51,18 @@ export const navbarData = [
   },
     {
     id: 'skills',
-    name: 'MySkills',
+    name: 'Skills',
     icon: '/icons/png/interface/skills-list.png',
   },
   {
     id: 'experience',
-    name: 'MyExperience',
+    name: 'Experience',
     icon:  '/icons/png/interface/experience.png',
   },
 
 {
     id: 'about',
-    name: 'AboutMe',
+    name: 'About',
     icon: '/icons/png/interface/user.png',
   },
   {

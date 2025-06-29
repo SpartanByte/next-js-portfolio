@@ -2,7 +2,7 @@
 
 import About from '../components/About'
 import Experience from '../components/Experience'
-import Load from '../components/Load'
+import Load from '../components/sub/Load'
 import Navbar from '../components/Navbar'
 import Skills from '../components/Skills'
 import Toggle from '../components/sub/Toggle'
@@ -35,6 +35,7 @@ export default function Home() {
   }, [])
   return (
     <>
+      <Load />
       <Toggle>
         <Navbar id={id} />
         <div className="w-full" ref={compsRef}>
