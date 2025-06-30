@@ -137,6 +137,13 @@ export const experienceData = [
     location: 'Minneapolis, Minnesota',
     dates_start_end: '09/2021 - 09/2024',
     description: 'Developed new WordPress sites, new functionality, break/fix support for multiple clients in the WordPress CMS including custom plugins, custom functionality for third party plugins and performing regular maintenance and security checks. Enhanced functionality of two Laravel applications also using Vue.js, Laravel Nova, and Tailwind CSS. Performed DevOps duties for site migrations, database and server setup, DNS configuration and SSL certificates.',
+        tools: [
+        { text: 'WordPress' },
+        { text: 'Advanced Custom Fields' },
+        { text: 'Laravel' },
+        { text: 'Runcloud' },
+    ],
+
   },
   {
     id: 'two',
@@ -146,6 +153,12 @@ export const experienceData = [
     location: 'Minneapolis, Minnesota',
     dates_start_end: '03/2021 - 09/2021',
     description: 'Leveraged C# and Razor template syntax for new/enhanced backend solutions in DynamicWeb and .NET as well as custom CSS and ES6 JavaScript. Developed configuration sites using React.js and Next.js. Attended regular team meetings, participated in code reviews, IIS environment setup, and occasionally trained users on functionality.',
+        tools: [
+        { text: 'WordPress' },
+        { text: 'Advanced Custom Fields' },
+        { text: 'Laravel' },
+        { text: 'Runcloud' },
+    ],
   },
   {
     id: 'three',
@@ -155,6 +168,12 @@ export const experienceData = [
     location: 'Fargo, North Dakota',
     dates_start_end: '07/2019 - 02/2021',
     description: 'Designed, developed, and enhanced applications in Ruby on Rails, React.js, Bootstrap, and Postgres. Integrated APIs such as Stripe and Pinterest into new MVC applications, implemented Spec and Capybara for testing frameworks, deployed applications to Heroku environments, kept track of issues and code reviews through Jira, and participated in team meetings and code reviews.',
+        tools: [
+        { text: 'WordPress' },
+        { text: 'Advanced Custom Fields' },
+        { text: 'Laravel' },
+        { text: 'Runcloud' },
+    ],
   },
 {
     id: 'four',
@@ -164,5 +183,26 @@ export const experienceData = [
     location: 'Moorhead, Minnesota',
     dates_start_end: '05/2018 - 07/2019',
     description: 'Developed and enhanced features to deliver Internet of Things (IoT) solutions for various companies within the Thingworx platform. Made regular updates and implemented a test framework into a Java application reporting software with the XSSFWorkbook package. Created technical documentation including architecture and workflow with Microsoft Visio and deployed code to Microsoft Team Foundation Server (TFS) along with code reviews. Developed an augmented reality app with Vuforia for product configuration previews. ',
+        tools: [
+        { text: 'WordPress' },
+        { text: 'Advanced Custom Fields' },
+        { text: 'Laravel' },
+        { text: 'Runcloud' },
+    ],
+  },
+  {
+    id: 'five',
+    year: 5,
+    title: 'Web Developer',
+    company: 'Insight Technologies',
+    location: 'Fargo, ND',
+    dates_start_end: '05/2018 - 07/2019',
+    description: '',
+        tools: [
+        { text: 'WordPress' },
+        { text: 'Advanced Custom Fields' },
+        { text: 'Laravel' },
+        { text: 'Runcloud' },
+    ],
   },
 ]

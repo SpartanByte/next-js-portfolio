@@ -52,6 +52,13 @@ const Experience = () => {
                   <li>{item.dates_start_end}</li>
                   <li>{item.description}</li>
                 </ul>
+                <ul className="pl-2">
+                  {item.tools.map((toolItem, index) => (
+                    <li key={index}>
+                      {toolItem.text} {/* Now you only access the 'text' property */}
+                    </li>
+                  ))}
+                </ul>
               </div>
               <span
                 className={`absolute top-20 text-red-300 -translate-y-1/2 lg:hidden ${
