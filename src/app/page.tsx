@@ -38,7 +38,7 @@ export default function Home() {
       <Load />
       <Toggle>
         <Navbar id={id} />
-        <div className="w-full" ref={compsRef}>
+        <div className="w-min" ref={compsRef}>
           <Skills />
           <Experience />
           <About />
