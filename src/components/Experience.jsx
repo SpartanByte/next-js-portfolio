@@ -46,9 +46,11 @@ const Experience = () => {
                 {item.title}
               </h1>
               <div className="text-gray-800 dark:text-gray-200 transition-colors">
-                <span className="font-light">Experience:</span>
                 <ul className="pl-2">
-
+                  <li>{item.company}</li>
+                  <li>{item.location}</li>
+                  <li>{item.dates_start_end}</li>
+                  <li>{item.description}</li>
                 </ul>
               </div>
               <span
