@@ -42,19 +42,26 @@ const Experience = () => {
               transition={{ duration: 0.7, type: 'spring', stiffness: 50 }}
               className="relative flex flex-col gap-y-3 rounded-md border border-red-300 bg-white p-4 tracking-wide sm:text-sm dark:bg-zinc-700 transition-colors z-20"
             >
-              <h1 className="text-xl sm:text-lg font-light text-gray-700 dark:text-white">
+
+            {/* check for Other Noteworthy Roles header */}
+            {item.summary_header ? (
+              <h1 className="font-bold text-xl sm:text-lg text-gray-700 dark:text-white">{item.summary_header}</h1>
+            ) : (
+              null
+            )}
+              <h1 className="sm:text-lg font-light text-gray-700 dark:text-white">
                 {item.title}
               </h1>
               <div className="text-gray-800 dark:text-gray-200 transition-colors">
-                <ul className="pl-2">
+                <ul className="mb-2 font-bold">
                   <li>{item.company}</li>
                   <li>{item.location}</li>
                   <li>{item.dates_start_end}</li>
-                  <li>{item.description}</li>
                 </ul>
-                <ul className="pl-2">
+                <p>Tools and Technologies:</p>
+                <ul className="ml-4 list-disc">
                   {item.tools.map((toolItem, index) => (
-                    <li key={index}>
+                    <li className="ml-4" key={index}>
                       {toolItem.text} {/* Now you only access the 'text' property */}
                     </li>
                   ))}
