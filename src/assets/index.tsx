@@ -128,6 +128,72 @@ export const backendSkills = [
   },
 ]
 
+export const cloudServicesData = [
+    {
+        id: 'gitlab',
+        name: 'GitLab',
+        icon: '/icons/png/technologies/php.png',
+    },
+    {
+        id: 'github',
+        name: 'GitHub',
+        icon: '/icons/png/technologies/laravel.png',
+    },
+    {
+        id: 'heroku',
+        name: 'Heroku',
+        icon:  '/icons/png/technologies/ruby.png',
+    },
+    {
+        id: 'laravelforge',
+        name: 'Laravel Forge',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'runcloud',
+        name: 'Runcloud',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'awss3',
+        name: 'AWS S3',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'bitbucketjira',
+        name: 'Bitbucket and Jira',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'tfs',
+        name: 'TFS and VSTS (Team Foundation Server, Visual Studio Team Services',
+        icon:  '/icons/png/technologies/database.png',
+    },
+]
+
+export const otherSkillsAndToolsData = [
+  {
+    id: 'php',
+    name: 'PHP',
+    icon: '/icons/png/technologies/php.png',
+  },
+  {
+    id: 'laravel',
+    name: 'Laravel',
+    icon: '/icons/png/technologies/laravel.png',
+  },
+  {
+    id: 'rubyonrails',
+    name: 'Ruby on Rails',
+    icon:  '/icons/png/technologies/ruby.png',
+  },
+{
+    id: 'mysql',
+    name: 'MySQL',
+    icon:  '/icons/png/technologies/database.png',
+  },
+]
+
 export const experienceData = [
   {
     id: 'one',
