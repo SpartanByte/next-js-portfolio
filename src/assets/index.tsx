@@ -265,3 +265,30 @@ export const experienceData = [
     ],
   },
 ]
+
+export const portfolioProjectData = [
+  {
+    id: 'laravel_portfolio',
+    name: 'Personal Portfolio (Laravel)',
+    url: 'https://portfolio.brianwardwell.com',
+    description: 'Portfolio website built in 2017 using Laravel, Bootstrap, custom CSS',
+  },
+  {
+    id: 'music_pavilion',
+    name: 'The Music Pavilion',
+    url: 'https://portfolio.brianwardwell.com',
+    description: 'Music review site built in Umbraco (ASP.NET content management system)',
+  },
+  {
+    id: 'portolio_original',
+    name: 'Original Portfolio',
+    url: 'https://brianwardwell.net',
+    description: 'My first portfolio from 2014 in vanilla PHP, custom CSS, JavaScript, and using MySQL',
+  },
+  {
+    id: 'events_next_api',
+    name: 'Events API (Next.js)',
+    url: 'https://brianwardwell.net',
+    description: 'Personal API proje t',
+  },
+]
