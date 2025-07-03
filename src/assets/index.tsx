@@ -128,6 +128,87 @@ export const backendSkills = [
   },
 ]
 
+export const cloudServicesData = [
+    {
+        id: 'gitlab',
+        name: 'GitLab',
+        icon: '/icons/png/technologies/php.png',
+    },
+    {
+        id: 'github',
+        name: 'GitHub',
+        icon: '/icons/png/technologies/laravel.png',
+    },
+    {
+        id: 'heroku',
+        name: 'Heroku',
+        icon:  '/icons/png/technologies/ruby.png',
+    },
+    {
+        id: 'laravelforge',
+        name: 'Laravel Forge',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'runcloud',
+        name: 'Runcloud',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'awss3',
+        name: 'AWS S3',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'bitbucketjira',
+        name: 'Bitbucket and Jira',
+        icon:  '/icons/png/technologies/database.png',
+    },
+    {
+        id: 'tfs',
+        name: 'TFS and VSTS (Team Foundation Server)',
+        icon:  '/icons/png/technologies/database.png',
+    },
+]
+
+export const otherSkillsAndToolsData = [
+  {
+    id: 'otherskills',
+    name: 'Other Skills',
+    skill_items: [
+        { text: 'Agile Scrum' },
+        { text: 'CI/CD Deployment' },
+        { text: 'Code Reviews and Pull Requests' },
+        { text: 'Unit and Feature Testing' },
+        { text: 'Responsive and Mobile First Design' },
+        { text: 'User Experience and User Interface Design' },
+        { text: 'SEO (Search Engine Optimization' },
+    ],
+  },
+  {
+    id: 'devops',
+    name: 'DevOps Skills',
+    skill_items: [
+        { text: 'CI/CD Deployment and YAML' },
+        { text: 'Laravel Herd' },
+        { text: 'DNS and SSL Certificates' },
+        { text: 'UNIX Command Line, Shell Scripting' },
+        { text: 'Docker Desktop' },
+    ],
+  },
+  {
+    id: 'tools',
+    name: 'Tools',
+    skill_items: [
+        { text: 'Visual Studio Code' },
+        { text: 'Sequel Ace' },
+        { text: 'Insomnia and Postman (API integrations' }, 
+        { text: 'Adobe Photoshop (interface composites)' },
+        { text: 'Figma' },
+    ],
+  },
+]
+
 export const experienceData = [
   {
     id: 'one',
@@ -289,6 +370,6 @@ export const portfolioProjectData = [
     id: 'events_next_api',
     name: 'Events API (Next.js)',
     url: 'https://brianwardwell.net',
-    description: 'Personal API proje t',
+    description: 'Personal API project',
   },
 ]
