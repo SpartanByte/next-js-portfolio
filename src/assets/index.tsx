@@ -351,24 +351,28 @@ export const portfolioProjectData = [
   {
     id: 'laravel_portfolio',
     name: 'Personal Portfolio (Laravel)',
+    link_text: 'portfolio.brianwardwell.com',
     url: 'https://portfolio.brianwardwell.com',
     description: 'Portfolio website built in 2017 using Laravel, Bootstrap, custom CSS',
   },
   {
     id: 'music_pavilion',
     name: 'The Music Pavilion',
+    link_text: 'themusicpavilion.com',
     url: 'https://portfolio.brianwardwell.com',
     description: 'Music review site built in Umbraco (ASP.NET content management system)',
   },
   {
     id: 'portolio_original',
     name: 'Original Portfolio',
+    link_text: 'brianwardwell.net',
     url: 'https://brianwardwell.net',
     description: 'My first portfolio from 2014 in vanilla PHP, custom CSS, JavaScript, and using MySQL',
   },
   {
     id: 'events_next_api',
     name: 'Events API (Next.js)',
+    link_text: 'brianwardwell.net',
     url: 'https://brianwardwell.net',
     description: 'Personal API project',
   },

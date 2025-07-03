@@ -10,8 +10,8 @@ const About = () => {
             <SectionHeading text={'About Me'} />
             {/* Add portfolio pic of me */}
             <section className="background mb-14">
-                <div className="w-full flex items-center justify-between md:justify-center">
-                    <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
+                <div className="flex items-center justify-between md:justify-center">
+                    <div className="flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
                         <p>Hello, my name is Brian Wardwell and was born and raised in Fargo, North Dakota. In 2020, my wife, son and I moved to the greater Minneapolis/St. Paul area. Moving during the pandemic had its own unique challenges but it was certainly exciting. I grew up going to the "cabin country" region of Minnesota and have always loved the lakes, walking in state parks, camping, and so on. We're massive Minnesota Wild fans, so that didn't hurt. We have two furry family members, Frankie (shih tzu) and Zimmer (chihuahua mix), as well as two corn snakes (Checkers and Rob) and one ball python (Django, named after the Python web framework).</p>
 
                         <p>I also love concerts, art, and other interesting events such as the Minnesota Renaissance Festival (yes, I dress up). I adore Halloween and have been planning this year, 2025, to not only have regular decorations but designing "DIY" decorations. We also enjoy visiting Fargo as well since we both have family there.</p> 
@@ -20,8 +20,8 @@ const About = () => {
             </section>
             <SectionHeading text={'My Background'} />
             <section className="background mb-14">
-                <div className="w-full flex items-center justify-between md:justify-center">
-                    <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
+                <div className="flex items-center justify-between md:justify-center">
+                    <div className="flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
                         <p>My journey into web development officially dates back to building a website on Tripod.com's site builder (when that excited) for the music I was recording in 2004. I remember creating Flash and shockwave media banners and animations, guest books, and other site elements that are now long gone. Also, enjoying amateur photography, I dove into teaching myself Adobe Photoshop within creating photomanipulation art and composite.</p>
 		
                         <p>I enrolled in college in 2012, putting my personal life on hold, to obtain the skills and project experience for computer programming and web development. My professors and instructions at Minnesota State Community and Technical College were amazing and their teaching styles were both empathetic and challenging. Main studies included: HTML5/CSS, Adobe Photoshop, JavaScript, PHP, MySQL, Python, Adobe Dreamweaver, Web Development Strategies & Practices, Computer Management Systems (WordPress), Microcomputer Databases, Ecommerce Principles, User Interface & User Experience Design, Search Engine Optimization, and Web Applications Programming (which included many different JavaScript "recipes" in different libraries such as Handlebars). In addition to technical courses, I studied College Writing, Technical Writing, and InterPersonal Communication.</p>
