@@ -4,6 +4,7 @@ import About from '../components/About'
 import Experience from '../components/Experience'
 import Load from '../components/sub/Load'
 import Navbar from '../components/Navbar'
+import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import Toggle from '../components/sub/Toggle'
 
@@ -41,6 +42,7 @@ export default function Home() {
         <div className="w-min" ref={compsRef}>
           <Skills />
           <Experience />
+          <Projects />
           <About />
         </div>
       </Toggle>

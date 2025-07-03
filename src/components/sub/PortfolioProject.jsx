@@ -4,12 +4,11 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 
 const PortfolioProject = ({ data, index }) => {
-    {/* Reset the state */}
-    const [show, setShow] = useState(false)
       return(
-        <div id="portfolio-project" className="min-h-screen flex flex-col items-center justify-center">
-            <h2>Project Name</h2>
-            <p>Project Description</p>
+        <div id="portfolio-project">
+            <h2 className="text-2xl sm:text-xl font-bold">{data.name}</h2>
+            <h3><a href={data.url} target="_blank">{data.link_text}</a></h3>
+            <p>{data.description}</p>
         </div>
       )
 }
