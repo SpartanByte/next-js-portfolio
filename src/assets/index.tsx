@@ -166,31 +166,46 @@ export const cloudServicesData = [
     },
     {
         id: 'tfs',
-        name: 'TFS and VSTS (Team Foundation Server, Visual Studio Team Services',
+        name: 'TFS and VSTS (Team Foundation Server)',
         icon:  '/icons/png/technologies/database.png',
     },
 ]
 
 export const otherSkillsAndToolsData = [
   {
-    id: 'php',
-    name: 'PHP',
-    icon: '/icons/png/technologies/php.png',
+    id: 'otherskills',
+    name: 'Other Skills',
+    skill_items: [
+        { text: 'Agile Scrum' },
+        { text: 'CI/CD Deployment' },
+        { text: 'Code Reviews and Pull Requests' },
+        { text: 'Unit and Feature Testing' },
+        { text: 'Responsive and Mobile First Design' },
+        { text: 'User Experience and User Interface Design' },
+        { text: 'SEO (Search Engine Optimization' },
+    ],
   },
   {
-    id: 'laravel',
-    name: 'Laravel',
-    icon: '/icons/png/technologies/laravel.png',
+    id: 'devops',
+    name: 'DevOps Skills',
+    skill_items: [
+        { text: 'CI/CD Deployment and YAML' },
+        { text: 'Laravel Herd' },
+        { text: 'DNS and SSL Certificates' },
+        { text: 'UNIX Command Line, Shell Scripting' },
+        { text: 'Docker Desktop' },
+    ],
   },
   {
-    id: 'rubyonrails',
-    name: 'Ruby on Rails',
-    icon:  '/icons/png/technologies/ruby.png',
-  },
-{
-    id: 'mysql',
-    name: 'MySQL',
-    icon:  '/icons/png/technologies/database.png',
+    id: 'tools',
+    name: 'Tools',
+    skill_items: [
+        { text: 'Visual Studio Code' },
+        { text: 'Sequel Ace' },
+        { text: 'Insomnia and Postman (API integrations' }, 
+        { text: 'Adobe Photoshop (interface composites)' },
+        { text: 'Figma' },
+    ],
   },
 ]
 
@@ -355,6 +370,6 @@ export const portfolioProjectData = [
     id: 'events_next_api',
     name: 'Events API (Next.js)',
     url: 'https://brianwardwell.net',
-    description: 'Personal API proje t',
+    description: 'Personal API project',
   },
 ]

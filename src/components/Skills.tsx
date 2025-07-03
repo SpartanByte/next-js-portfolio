@@ -97,8 +97,22 @@ const variants = {
                     </motion.div>
                 ))}
         </div>
+        <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
+            {otherSkillsAndToolsData.map((item, i) => (
+                <>
+                <div className="ml-4">
+                    <p className="font-bold">{item.name}</p>
+                    <ul className="list-disc">
+                        {item.skill_items.map((skillItem, index) => (
+                            <li className="ml-4" key={index}>
+                                {skillItem.text}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                </>
+            ))}
+        </div>
     </div>
-  )
-}
-
+)}
 export default Skills
