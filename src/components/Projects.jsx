@@ -9,7 +9,7 @@ import SectionHeading from './sub/SectionHeading'
 
 const Projects = () => {
     return(
- <div id="projects" className="min-h-screen flex flex-col items-center justify-center">
+ <div id="projects" className="flex flex-col items-center justify-start">
             <SectionHeading text={'Projects'} />
             <section className="background mb-14">
                 <div className="flex items-center justify-between md:justify-center">
