@@ -18,7 +18,8 @@ const Experience = () => {
 
   const scrollY = useSpring(scrollYProgress, { stiffness: 200, damping: 20 })
   return (
-    <div id="experience" className="relative py-20 ">
+
+      <div id="experience" className="relative py-20 min-h-screen flex flex-col items-center justify-center gap-y-20">
         {/* relative py-20*/}
       <SectionHeading text={'Professional Experience'} />
         {/* Image to correspond with experience*/}
@@ -29,7 +30,7 @@ const Experience = () => {
           {experienceData.map((item, i) => (
           <div
             key={`id-${i}`}
-            className={`w-[400px] md:w-[600px] xl:w-[480px] px-12 sm:px-0 relative ${
+            className={`w-full md:w-[600px] xl:w-[480px] md:px-12 sm:px-0 relative ${
               i % 2 === 0
                 ? 'xl:-left-[240px] lg:-left-0'
                 : 'xl:left-[240px] lg:left-0'

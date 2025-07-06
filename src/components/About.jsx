@@ -6,7 +6,7 @@ import Image from 'next/image'
 const About = () => {
 
     return(
-        <div id="about" className="min-h-screen flex flex-col items-center justify-center">
+        <div id="about" className="min-h-screen flex flex-col items-center justify-start">
             <SectionHeading text={'About Me'} />
             {/* Add portfolio pic of me */}
             <section className="background mb-14">

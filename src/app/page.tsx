@@ -39,7 +39,7 @@ export default function Home() {
       <Load />
       <Toggle>
         <Navbar id={id} />
-        <div className="w-min" ref={compsRef}>
+        <div className="w-90 md:w-full h-full flex flex-col justify-between ml-20 px-2 py-10 xl:py-6 z-10" ref={compsRef}>
           <Skills />
           <Experience />
           <Projects />
