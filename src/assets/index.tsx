@@ -59,16 +59,15 @@ export const navbarData = [
     name: 'Experience',
     icon:  '/icons/png/interface/experience.png',
   },
-
-{
-    id: 'about',
-    name: 'About',
-    icon: '/icons/png/interface/user.png',
-  },
   {
     id: 'projects',
     name: 'Projects',
     icon: '/icons/png/interface/projects.png',
+  },
+  {
+    id: 'about',
+    name: 'About',
+    icon: '/icons/png/interface/user.png',
   },
 ]
 
