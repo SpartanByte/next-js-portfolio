@@ -2,6 +2,7 @@
 
 import About from '../components/About'
 import Experience from '../components/Experience'
+import Hero from '../components/Hero'
 import Load from '../components/sub/Load'
 import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
@@ -40,6 +41,7 @@ export default function Home() {
       <Toggle>
         <Navbar id={id} />
         <div className="w-90 md:w-full h-full flex flex-col justify-between ml-20 px-2 py-10 xl:py-6 z-10" ref={compsRef}>
+          <Hero />
           <Skills />
           <Experience />
           <Projects />

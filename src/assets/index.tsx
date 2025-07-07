@@ -1,11 +1,9 @@
 // main TSX file
  
 // Hero imports
-import InstagramLineIcon from 'remixicon-react/InstagramLineIcon'
-import FacebookCircleLineIcon from 'remixicon-react/FacebookCircleLineIcon'
-import DribbbleLineIcon from 'remixicon-react/DribbbleLineIcon'
-import YoutubeLineIcon from 'remixicon-react/YoutubeLineIcon'
 import GithubLineIcon from 'remixicon-react/GithubLineIcon'
+import LinkedinBoxLineIcon from 'remixicon-react/LinkedinBoxLineIcon'
+import StackOverflowLineIcon from 'remixicon-react/StackOverflowLineIcon'
 
 // Navbar
 import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon'
@@ -69,6 +67,12 @@ export const navbarData = [
     name: 'About',
     icon: '/icons/png/interface/user.png',
   },
+]
+
+export const heroIcons = [
+    <LinkedinBoxLineIcon />,
+    <GithubLineIcon />,
+    <StackOverflowLineIcon />,
 ]
 
 export const frontendSkills = [

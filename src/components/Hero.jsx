@@ -1,8 +1,9 @@
 'use client'
 import Image from 'next/image'
-import { heroIcons } from '@/assets'
 import { useMotionValue, useTransform, motion, useSpring } from 'framer-motion'
 import { useState } from 'react'
+import { heroIcons } from '../assets'
+import HeroLinks from '../components/sub/HeroLinks'
 
 const Hero = () => {
 
@@ -72,10 +73,10 @@ const Hero = () => {
             </motion.span>
         </motion.div>
         <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            Test header
+            Brian Wardwell
         </h1>
         <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-            Test paragraph
+            Software Development Professional | Problem Solver | Technical Enthusiast
         </p>
         </motion.div>
         <motion.div
@@ -94,17 +95,7 @@ const Hero = () => {
             </a>
           ))}
         </motion.div>
-        <motion.a
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.7 }}
-          href="#"
-          className="mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors"
-          onMouseEnter={() => setButtonHover(true)}
-          onMouseLeave={() => setButtonHover(false)}
-        >
-          Subheading
-        </motion.a>
+        <HeroLinks />
       </div>
     </div>
   )
