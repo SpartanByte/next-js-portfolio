@@ -32,9 +32,11 @@ import ArrowLeftSLineIcon from 'remixicon-react/ArrowLeftSLineIcon'
 import ArrowRightSLineIcon from 'remixicon-react/ArrowRightSLineIcon'
 import DownloadLineIcon from 'remixicon-react/DownloadLineIcon'
 import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
+import ArrowUpLineIcon from 'remixicon-react/ArrowUpLineIcon'
 
 export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
+export const arrowUpLineIcon = <ArrowUpLineIcon />
 
 
 /* eslint-disable react/jsx-key */
