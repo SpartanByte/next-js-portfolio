@@ -19,5 +19,25 @@ Portfolio website built in
 - Typescript v5.0.0 ==> [Typescript Docs](https://www.typescriptlang.org/docs/)
 - Tailwind CSS v^3 ==> [Tailwind Docs](http://tailwindcss.com/docs/styling-with-utility-classes)
 - Framer Motion v12.6.5 ==> [Framer Motion Docs](https://motion.dev/docs)
+- Remix Icons - React v1.0.0 ==> [Remix Icons](https://remixicon.com/)
+
+<hr>
+
+#### Color Palette
+
+- Main Grey => **#616161**
+- Main Blue => **#008cff**
+- Accent Grey => **#c4c4c4**
+- Accent Blue => **#afe3fb**
+- Dark Blue (for AWS S3 logo) => **#024a86**
+- Dark Grey (for AWS S3 logo) => **#3f3f3f**
+
+<hr>
+
+#### Project Roadmap
+
+- light/dark mode toggle
+
+<hr>
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
