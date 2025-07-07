@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
 import "./globals.css";
+import { laptopCoffeeAboveImage } from '../assets'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,8 +26,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`} 
       >
+
+      {/* Background Image Div */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url('${laptopCoffeeAboveImage}')` }}
+      ></div>
+
+      {/* Overlay Div */}
+      <div className="absolute inset-0 bg-black/70"></div>
         {children}
       </body>
     </html>

@@ -18,6 +18,9 @@ import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon' // For project
 
 import Toggle from '../components/Toggle'
 
+// Background Images
+export const laptopCoffeeAboveImage = '/hero-images/laptopcoffee-001.jpg'
+
 // Toggle
 import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
 import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
@@ -71,6 +74,35 @@ export const navbarData = [
   },
 ]
 
+/* To use blue/grey theme, use navbarDataBlue */
+export const navbarDataBlue = [
+  {
+    id: 'home',
+    name: 'Home',
+    icon: '/icons/png/interface/blue/home.png',
+  },
+    {
+    id: 'skills',
+    name: 'Skills',
+    icon: '/icons/png/interface/blue/skills-list.png',
+  },
+  {
+    id: 'experience',
+    name: 'Experience',
+    icon:  '/icons/png/interface/blue/experience.png',
+  },
+  {
+    id: 'projects',
+    name: 'Projects',
+    icon: '/icons/png/interface/blue/projects.png',
+  },
+  {
+    id: 'about',
+    name: 'About',
+    icon: '/icons/png/interface/blue/user.png',
+  },
+]
+
 export const heroIcons = [
     <LinkedinBoxLineIcon />,
     <GithubLineIcon />,
@@ -81,32 +113,32 @@ export const frontendSkills = [
   {
     id: 'html5',
     name: 'HTML5',
-    icon: '/icons/png/technologies/html5.png',
+    icon: '/icons/png/technologies/blue/html5.png',
   },
   {
     id: 'css',
     name: 'CSS',
-    icon: '/icons/png/technologies/css.png',
+    icon: '/icons/png/technologies/blue/css3.png',
   },
   {
     id: 'javascript',
     name: 'JavaScript',
-    icon:  '/icons/png/technologies/javascript.png',
+    icon:  '/icons/png/technologies/blue/javascript.png',
   },
   {
     id: 'reactjs',
     name: 'React.js',
-    icon: '/icons/png/technologies/react.png',
+    icon: '/icons/png/technologies/blue/react.png',
   },
   {
     id: 'typescript',
     name: 'Typescript',
-    icon: '/icons/png/technologies/typescript.png',
+    icon: '/icons/png/technologies/blue/typescript.png',
   },
     {
     id: 'wordpress',
     name: 'WordPress',
-    icon: '/icons/png/technologies/wordpress.png',
+    icon: '/icons/png/technologies/blue/wordpress.png',
   },
 ]
 
@@ -114,22 +146,37 @@ export const backendSkills = [
   {
     id: 'php',
     name: 'PHP',
-    icon: '/icons/png/technologies/php.png',
+    icon: '/icons/png/technologies/blue/php.png',
   },
   {
     id: 'laravel',
     name: 'Laravel',
-    icon: '/icons/png/technologies/laravel.png',
+    icon: '/icons/png/technologies/blue/laravel.png',
   },
   {
     id: 'rubyonrails',
     name: 'Ruby on Rails',
-    icon:  '/icons/png/technologies/ruby.png',
+    icon:  '/icons/png/technologies/blue/ruby.png',
+  },
+  {
+    id: 'csharp',
+    name: 'C#',
+    icon:  '/icons/png/technologies/blue/csharp.png',
   },
 {
     id: 'mysql',
     name: 'MySQL',
-    icon:  '/icons/png/technologies/database.png',
+    icon:  '/icons/png/technologies/blue/mysql.png',
+  },
+    {
+    id: 'umbraco',
+    name: 'Umbraco',
+    icon:  '/icons/png/technologies/blue/umbraco.png',
+  },
+  {
+    id: 'sql',
+    name: 'SQL',
+    icon:  '/icons/png/technologies/blue/sql.png',
   },
 ]
 
@@ -137,42 +184,42 @@ export const cloudServicesData = [
     {
         id: 'gitlab',
         name: 'GitLab',
-        icon: '/icons/png/technologies/php.png',
+        icon: '/icons/png/technologies/blue/gitlab.png',
     },
     {
         id: 'github',
         name: 'GitHub',
-        icon: '/icons/png/technologies/laravel.png',
+        icon: '/icons/png/technologies/blue/github.png',
     },
     {
         id: 'heroku',
         name: 'Heroku',
-        icon:  '/icons/png/technologies/ruby.png',
+        icon:  '/icons/png/technologies/blue/heroku.png',
     },
     {
         id: 'laravelforge',
         name: 'Laravel Forge',
-        icon:  '/icons/png/technologies/database.png',
+        icon:  '/icons/png/technologies/blue/laravelforge.png',
     },
     {
         id: 'runcloud',
         name: 'Runcloud',
-        icon:  '/icons/png/technologies/database.png',
+        icon:  '/icons/png/technologies/blue/runcloud.png',
     },
     {
         id: 'awss3',
         name: 'AWS S3',
-        icon:  '/icons/png/technologies/database.png',
+        icon:  '/icons/png/technologies/blue/aws-s3.png',
     },
     {
         id: 'bitbucketjira',
         name: 'Bitbucket and Jira',
-        icon:  '/icons/png/technologies/database.png',
+        icon:  '/icons/png/technologies/blue/bitbucket.png',
     },
     {
         id: 'tfs',
         name: 'TFS and VSTS (Team Foundation Server)',
-        icon:  '/icons/png/technologies/database.png',
+        icon:  '/icons/png/technologies/blue/tfs.png',
     },
 ]
 

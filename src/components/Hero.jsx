@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { useMotionValue, useTransform, motion, useSpring } from 'framer-motion'
 import { useState } from 'react'
-import { heroIcons } from '../assets'
+import { heroIcons, laptopCoffeeAboveImage } from '../assets'
 import HeroLinks from '../components/sub/HeroLinks'
 
 const Hero = () => {
@@ -57,8 +57,6 @@ const Hero = () => {
                 transition: '0.1s',
             }}
         >
-
-            {/* Todo: add Image component and adjust styling */}
             <motion.span
                 className="absolute text-3xl font-semibold text-white"
                 initial={{ scale: 0 }}

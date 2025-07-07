@@ -1,7 +1,7 @@
 'use client'
 import SectionHeading from './sub/SectionHeading'
 import Image from 'next/image'
-import { frontendSkills, backendSkills, cloudServicesData, otherSkillsAndToolsData } from '../assets'
+import { frontendSkills, backendSkills, cloudServicesData, otherSkillsAndToolsData, laptopCoffeeAboveImage } from '../assets'
 import { motion } from 'framer-motion'
 
 interface SkillsProps {
@@ -45,7 +45,7 @@ const variants = {
                         height={100}
                         className="h-auto w-[40px]"
                         />
-                        <p className="text-sm text-gray-600">{item.name}</p>
+                        <p className="text-sm text-gray-600 font-bold">{item.name}</p>
                     </motion.div>
                 ))}
         </div>
@@ -69,7 +69,7 @@ const variants = {
                         height={100}
                         className="h-auto w-[40px]"
                         />
-                        <p className="text-sm text-gray-600">{item.name}</p>
+                        <p className="text-sm text-gray-600 font-bold">{item.name}</p>
                     </motion.div>
                 ))}
         </div>
@@ -93,7 +93,7 @@ const variants = {
                         height={100}
                         className="h-auto w-[40px]"
                         />
-                        <p className="text-sm text-gray-600">{item.name}</p>
+                        <p className="text-sm text-gray-600 font-bold">{item.name}</p>
                     </motion.div>
                 ))}
         </div>
