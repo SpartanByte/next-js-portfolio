@@ -19,8 +19,7 @@ const Experience = () => {
   const scrollY = useSpring(scrollYProgress, { stiffness: 200, damping: 20 })
   return (
 
-      <div id="experience" className="relative py-20 min-h-screen flex flex-col items-center justify-center gap-y-20">
-        {/* relative py-20*/}
+      <div id="experience" className="min-h-screen relative py-20 flex flex-col items-center justify-center gap-y-20">
       <SectionHeading text={'Professional Experience'} />
         {/* Image to correspond with experience*/}
         <div
@@ -63,23 +62,12 @@ const Experience = () => {
                 <ul className="ml-4 list-disc">
                   {item.tools.map((toolItem, index) => (
                     <li className="ml-4" key={index}>
-                      {toolItem.text} {/* Now you only access the 'text' property */}
+                      {toolItem.text}
                     </li>
                   ))}
                 </ul>
               </div>
-              <span
-                className={`absolute top-20 text-red-300 -translate-y-1/2 lg:hidden ${
-                  i % 2 === 0 ? 'left-full rotate-180' : 'right-full'
-                }`}
-              >
-              </span>
             </motion.div>
-            <div
-
-            >
-
-            </div>
           </div>
         ))}
 

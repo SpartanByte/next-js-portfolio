@@ -1,5 +1,5 @@
 'use client'
-import { navbarData, navbarDataBlue } from '../assets'
+import { navbarDataBlue } from '../assets'
 
 const Navbar = ({ id }) => {
     return(
@@ -20,11 +20,8 @@ const Navbar = ({ id }) => {
                         style={{ width: '32px', height: '32px' }}
                     />
                     </span>
-                    <span
-                    className={`text-[10px] tracking-wide opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 text-center dark:text-white 
-                    ${item.id === id && '-translate-x-0 opacity-100'}`}
-                    >
-                    {item.name}
+                    <span className="text-[10px] tracking-wide opacity-100 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 text-center dark:text-white">
+                        {item.id}
                     </span>
                 </a>
                 ))}

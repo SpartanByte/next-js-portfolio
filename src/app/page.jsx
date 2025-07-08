@@ -13,8 +13,8 @@ import Toggle from '../components/sub/Toggle'
 import { useState, useRef, useEffect } from 'react'
 
 export default function Home() {
-  const [id, setId] = useState<string | null>(null); // For Typescript, initialize it to accept strings
-  const compsRef = useRef<string | null>(null); // For Typescript, initialize it to accept strings
+  const [id, setId] = useState(0)
+  const compsRef = useRef(null)
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -26,7 +26,7 @@ export default function Home() {
           }
         })
       },
-      { threshold: 0.3 },
+      { threshold: 0.5 },
     )
 
     console.log(compsRef);

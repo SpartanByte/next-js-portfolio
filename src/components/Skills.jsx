@@ -4,10 +4,6 @@ import Image from 'next/image'
 import { frontendSkills, backendSkills, cloudServicesData, otherSkillsAndToolsData, laptopCoffeeAboveImage } from '../assets'
 import { motion } from 'framer-motion'
 
-interface SkillsProps {
-  text: string;
-}
-
 const Skills = () => {
 const variants = {
     visible: (i) => ({

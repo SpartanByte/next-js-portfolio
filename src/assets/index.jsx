@@ -16,8 +16,6 @@ import HistoryLineIcon from 'remixicon-react/HistoryLineIcon' // For experience
 import BriefcaseLineIcon from 'remixicon-react/BriefcaseLineIcon' // For skills
 import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon' // For projects
 
-import Toggle from '../components/Toggle'
-
 // Background Images
 export const laptopCoffeeAboveImage = '/hero-images/laptopcoffee-001.jpg'
 
