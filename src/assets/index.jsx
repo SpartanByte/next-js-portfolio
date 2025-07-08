@@ -398,6 +398,13 @@ export const experienceData = [
 ]
 
 export const portfolioProjectData = [
+    {
+    id: 'next_portfolio',
+    name: 'Personal Portfolio (2025, built in Next and React)',
+    link_text: 'next.brianwardwell.com',
+    url: 'https://next.brianwardwell.com',
+    description: 'Portfolio website built in 2025 using Next.js/React.js, Tailwind CSS, Framer Motion',
+  },
   {
     id: 'laravel_portfolio',
     name: 'Personal Portfolio (Laravel)',
