@@ -1,6 +1,4 @@
-import Metadata  from "next";
 import "./globals.css";
-
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
 import { laptopCoffeeAboveImage } from '../assets'
 
@@ -15,6 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 const outfit = Outfit({ subsets: ['latin'] })
+
+export const metadata = {
+  title: 'Brian Wardwell | Web Development',
+  description: 'Brian Wardwell: Web and Software Developer Portfolio Website',
+}
 
 export default function RootLayout({ children }) {
   return (

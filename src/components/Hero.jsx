@@ -1,9 +1,8 @@
 'use client'
-import Image from 'next/image'
 import { useMotionValue, useTransform, motion, useSpring } from 'framer-motion'
 import { useState } from 'react'
-import { heroIcons, laptopCoffeeAboveImage } from '../assets'
-import HeroLinks from '../components/sub/HeroLinks'
+import { socialEmailIcons, laptopCoffeeAboveImage } from '../assets'
+import AnimatedNavLink from './sub/AnimatedNavLink'
 
 const Hero = () => {
 
@@ -13,6 +12,10 @@ const Hero = () => {
     const [buttonHover, setButtonHover] = useState(false)
     const x = useMotionValue(0)
     const y = useMotionValue(0)
+
+    const iconLinkStyles = {
+        color: '#008cff',
+    }
 
     // Mouse actions
     const handleMouseMove = (e) => {
@@ -25,6 +28,12 @@ const Hero = () => {
         setWindowOffset({ innerWidth: window.innerWidth, innerHeight: window.innerHeight })
         setMouseMove(true)
     }
+
+    const [isHovered, setIsHovered] = useState(false);
+    const socialLinkStyles = { 
+        color: isHovered ? '#024a86' : '#008cff',
+    }
+
 
     const { innerWidth, innerHeight } = windowOffset
 
@@ -39,8 +48,6 @@ const Hero = () => {
         <div
             id="home"
             className="h-screen grid place-items-center"
-            onMouseMove={handleMouseMove}
-            onMouseEnter={handleMouseEnter}
         >
       <div>
         <motion.div
@@ -76,24 +83,46 @@ const Hero = () => {
         <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
             Software Development Professional | Problem Solver | Technical Enthusiast
         </p>
+        
         </motion.div>
-        <motion.div
+         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
           className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl"
         >
-          {heroIcons.map((icon, i) => (
+          {socialEmailIcons.map((item, i) => (
             <a
-              href="#"
+              href={item.href}
               key={i}
-              className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
+              className=""
+              style={iconLinkStyles}
             >
-              {icon}
+              {item.icon}
             </a>
           ))}
         </motion.div>
-        <HeroLinks />
+         <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="mt-8 flex justify-center gap-x-10 text-1xl text-yellow-600 sm:text-xl"
+        >
+        <AnimatedNavLink href="#skills" >
+            Skills
+          </AnimatedNavLink>
+          <AnimatedNavLink href="#experience">
+            Experience
+          </AnimatedNavLink>
+
+          <AnimatedNavLink href="#projects">
+            Projects
+          </AnimatedNavLink>
+
+            <AnimatedNavLink href="#about" >
+            About
+          </AnimatedNavLink>
+        </motion.div>
       </div>
     </div>
   )

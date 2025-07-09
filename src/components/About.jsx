@@ -8,7 +8,12 @@ const About = () => {
     return(
         <div id="about" className="min-h-screen flex flex-col items-center justify-start">
             <SectionHeading text={'About Me'} />
-            {/* Add portfolio pic of me */}
+            <Image
+                src={'/hero-images/laptopcoffee-001.jpg'}
+                alt="About Image"
+                width={400}
+                height={400}
+            />
             <section className="background mb-14">
                 <div className="flex items-center justify-between md:justify-center">
                     <div className="flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">

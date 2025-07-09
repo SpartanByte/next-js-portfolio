@@ -80,7 +80,7 @@ const variants = {
                         whileHover={{ scale: 1.1 }}
                         viewport={{ margin: '50px', once: true }}
                         key={i}
-                        className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 px-5 py-2 lg:px-2"
+                        className="flex items-center justify-center gap-x-3 rounded-xl border bg-zinc-200 px-5 py-2 lg:px-2"
                     >
                         <Image
                         src={item.icon}
@@ -95,18 +95,16 @@ const variants = {
         </div>
         <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
             {otherSkillsAndToolsData.map((item, i) => (
-                <>
                 <div className="ml-4">
                     <p className="font-bold">{item.name}</p>
                     <ul className="list-disc">
-                        {item.skill_items.map((skillItem, index) => (
-                            <li className="ml-4" key={index}>
+                        {item.skill_items.map((skillItem, i) => (
+                            <li className="ml-4" key={i}>
                                 {skillItem.text}
                             </li>
                         ))}
                     </ul>
                 </div>
-                </>
             ))}
         </div>
     </div>
