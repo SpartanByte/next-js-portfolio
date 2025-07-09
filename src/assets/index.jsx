@@ -9,13 +9,6 @@ import StackOverflowLineIcon from 'remixicon-react/StackOverflowLineIcon'
 import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon'
 export const copyRightIcon = <CopyrightLineIcon />
 
-// Import icons for Navbar (to be removed,, using other icons)
-import Home5LineIcon from 'remixicon-react/Home5LineIcon' // For home
-import UserLineIcon from 'remixicon-react/UserLineIcon' // For about
-import HistoryLineIcon from 'remixicon-react/HistoryLineIcon' // For experience
-import BriefcaseLineIcon from 'remixicon-react/BriefcaseLineIcon' // For skills
-import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon' // For projects
-
 // Background Images
 export const laptopCoffeeAboveImage = '/hero-images/laptopcoffee-001.jpg'
 
