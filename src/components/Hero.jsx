@@ -1,8 +1,7 @@
 'use client'
-import Image from 'next/image'
 import { useMotionValue, useTransform, motion, useSpring } from 'framer-motion'
 import { useState } from 'react'
-import { heroIcons, laptopCoffeeAboveImage } from '../assets'
+import { socialEmailIcons, laptopCoffeeAboveImage } from '../assets'
 import AnimatedNavLink from './sub/AnimatedNavLink'
 
 const Hero = () => {
@@ -13,6 +12,10 @@ const Hero = () => {
     const [buttonHover, setButtonHover] = useState(false)
     const x = useMotionValue(0)
     const y = useMotionValue(0)
+
+    const iconLinkStyles = {
+        color: '#008cff',
+    }
 
     // Mouse actions
     const handleMouseMove = (e) => {
@@ -86,9 +89,26 @@ const Hero = () => {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
+          className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl"
+        >
+          {socialEmailIcons.map((item, i) => (
+            <a
+              href={item.href}
+              key={i}
+              className=""
+              style={iconLinkStyles}
+            >
+              {item.icon}
+            </a>
+          ))}
+        </motion.div>
+         <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
           className="mt-8 flex justify-center gap-x-10 text-1xl text-yellow-600 sm:text-xl"
         >
-                      <AnimatedNavLink href="#skills" >
+        <AnimatedNavLink href="#skills" >
             Skills
           </AnimatedNavLink>
           <AnimatedNavLink href="#experience">
@@ -99,7 +119,7 @@ const Hero = () => {
             Projects
           </AnimatedNavLink>
 
-            <AnimatedNavLink href="#projects" >
+            <AnimatedNavLink href="#about" >
             About
           </AnimatedNavLink>
         </motion.div>

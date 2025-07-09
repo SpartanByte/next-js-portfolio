@@ -1,13 +1,35 @@
-// main TSX file
- 
-// Hero imports
+// Social/Email icon imports
 import GithubLineIcon from 'remixicon-react/GithubLineIcon'
 import LinkedinBoxLineIcon from 'remixicon-react/LinkedinBoxLineIcon'
 import StackOverflowLineIcon from 'remixicon-react/StackOverflowLineIcon'
+import MailLineIcon from 'remixicon-react/MailLineIcon'
 
 // Navbar
 import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon'
 export const copyRightIcon = <CopyrightLineIcon />
+
+export const socialEmailIcons = [
+    {
+    icon: <MailLineIcon />,
+    name: 'Email',
+    href: 'mailto:brianwardwell@brianwardwell.com',
+  },
+    {
+    icon: <LinkedinBoxLineIcon />,
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/briantwardwell/',
+  },
+{
+    icon: <GithubLineIcon />,
+    name: 'GitHub',
+    href: 'https://github.com/spartanbyte/',
+  },
+  {
+    icon: <StackOverflowLineIcon />,
+    name: 'Stack Overflow',
+    href: 'https://stackoverflow.com/users/7168765/jeepers-brian',
+  },
+]
 
 // Background Images
 export const laptopCoffeeAboveImage = '/hero-images/laptopcoffee-001.jpg'
@@ -92,12 +114,6 @@ export const navbarDataBlue = [
     name: 'About',
     icon: '/icons/png/interface/blue/user.png',
   },
-]
-
-export const heroIcons = [
-    <LinkedinBoxLineIcon />,
-    <GithubLineIcon />,
-    <StackOverflowLineIcon />,
 ]
 
 export const frontendSkills = [

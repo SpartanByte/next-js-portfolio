@@ -54,13 +54,13 @@ const Toggle = ({ children }) => {
               animate={{ scale: darkTheme ? 0 : 1 }}
               className="absolute block rounded-full bg-zinc-50 p-1 text-4xl dark:bg-zinc-800"
             >
-              {moonIcon}
+
             </motion.span>
             <motion.span
               animate={{ scale: darkTheme ? 1 : 0 }}
               className="absolute block rounded-full bg-zinc-50 p-1 text-3xl dark:bg-zinc-800"
             >
-              {sunIcon}
+
             </motion.span>
           </button>
           {children}

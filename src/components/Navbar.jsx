@@ -3,7 +3,7 @@ import { navbarDataBlue } from '../assets'
 
 const Navbar = ({ id }) => {
     return(
-        <><div className="w-[70px] h-full fixed left-0 top-0 flex flex-col justify-between border-r border-gray-200 px-2 py-10 xl:py-6 z-10">
+        <><div className="w-[70px] h-full fixed left-0 top-0 flex flex-col justify-between bg-black/70 border-r border-gray-200 px-2 py-10 xl:py-6 z-10">
              <div className="flex flex-col gap-y-3 xl:gap-y-1 sm:gap-y-2 xs:gap-y-0">
                 {navbarDataBlue.map((item, i) => (
                 <a href={`/#${item.id}`} key={i} className="group flex flex-col items-center text-center gap-y-2">
