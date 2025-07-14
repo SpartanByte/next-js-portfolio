@@ -414,8 +414,8 @@ export const portfolioProjectData = [
     url: 'https://developer.brianwardwell.com',
     description: 'Portfolio website built in 2025 using Next.js/React.js, Tailwind CSS, Framer Motion',
     images: [
-        { image: '/project-images/laravelportfolio-01.png', image_description: 'something here' },
-        { image: '/project-images/laravelportfolio-02.png', image_description: 'something here' },
+        { image: '/project-images/nextjsportfolio-01-min.png', image_description: 'Next.js/React.js Portfolio Home' },
+        { image: '/project-images/nextportfolio-mobile-01-min.png', image_description: 'Next.js/React.js Mobile Home' },
     ],
   },
   {
@@ -424,6 +424,10 @@ export const portfolioProjectData = [
     link_text: 'portfolio.brianwardwell.com',
     url: 'https://portfolio.brianwardwell.com',
     description: 'Portfolio website built in 2017 using Laravel, Bootstrap, custom CSS',
+        images: [
+        { image: '/project-images/laravelportfolio-01-min.png', image_description: 'Laravel Portfolio Homepage' },
+        { image: '/project-images/laravelportfolio-02-min.png', image_description: 'Laravel Portfolio Experience' },
+    ],
   },
   {
     id: 'music_pavilion',
@@ -431,6 +435,20 @@ export const portfolioProjectData = [
     link_text: 'themusicpavilion.com',
     url: 'https://portfolio.brianwardwell.com',
     description: 'Music review site built in Umbraco (ASP.NET content management system)',
+    images: [
+        { image: '/project-images/themusicpavilion-01-min.png', image_description: 'The Music Pavilion Homepage' },
+        { image: '/project-images/themusicpavilion-02-min.png', image_description: 'The Music Pavilion About' },
+    ],
+  },
+  {
+    id: 'musicbytes',
+    name: 'Musicbytes',
+    link_text: 'themusicpavilion.com',
+    url: '',
+    description: 'Music review site built in Umbraco (ASP.NET content management system)',
+    images: [
+        { image: '/project-images/musicbytes-01-min.png', image_description: 'Musicbytes Homepage' },
+    ],
   },
   {
     id: 'portolio_original',
@@ -438,12 +456,16 @@ export const portfolioProjectData = [
     link_text: 'brianwardwell.net',
     url: 'https://brianwardwell.net',
     description: 'My first portfolio from 2014 in vanilla PHP, custom CSS, JavaScript, and using MySQL',
+    images: [
+        { image: '/project-images/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Homepage' },
+        { image: '/project-images/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Academics' },
+    ],
   },
   {
     id: 'events_next_api',
     name: 'Events API (Next.js)',
     link_text: 'brianwardwell.net',
     url: 'https://brianwardwell.net',
-    description: 'Personal API project',
+    description: 'Work in progress, images coming soon. Personal API project',
   },
 ]

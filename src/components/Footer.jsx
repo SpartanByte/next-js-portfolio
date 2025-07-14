@@ -24,11 +24,11 @@ const Footer = () => {
         <div id="footer" className="grid place-items-center">
             <section className="background mb-14">
                 <p><a className="pl-4 text-xl" style={backToTopStyles} href="#home">{ arrowUpLineIcon } Back to Top</a></p>
-<motion.div
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
-          className="mt-8 flex justify-center gap-x-10 text-1xl text-yellow-600 sm:text-xl"
+                <motion.div
+                    initial={{ opacity: 0, y: 100 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5 }}
+                    className="mt-8 flex justify-center gap-x-10 text-1xl text-yellow-600 sm:text-xl"
         >
         <AnimatedNavLink href="#skills" >
             Skills

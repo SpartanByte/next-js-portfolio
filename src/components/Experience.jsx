@@ -29,7 +29,7 @@ const Experience = () => {
           {experienceData.map((item, i) => (
           <div
             key={`id-${i}`}
-            className={`w-full md:w-[600px] xl:w-[480px] md:px-12 sm:px-0 relative ${
+            className={`w-full md:w-[600px] xl:w-[480px] relative ${
               i % 2 === 0
                 ? 'xl:-left-[240px] lg:-left-0'
                 : 'xl:left-[240px] lg:left-0'
