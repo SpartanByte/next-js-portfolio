@@ -44,7 +44,7 @@ const Experience = () => {
 
             {/* check for Other Noteworthy Roles header */}
             {item.summary_header ? (
-              <h1 className="font-bold text-xl sm:text-lg text-gray-700 dark:text-white">{item.summary_header}</h1>
+              <h2 className="font-bold text-xl sm:text-lg text-gray-700 dark:text-white">{item.summary_header}</h2>
             ) : (
               null
             )}
