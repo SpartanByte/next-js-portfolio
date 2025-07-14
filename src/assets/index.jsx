@@ -288,7 +288,9 @@ export const experienceData = [
         { text: 'Laravel' },
         { text: 'Vue.js'},
         { text: 'Runcloud' },
-        { text: 'DevOps: SSL Certification and DNS Management'}
+        { text: 'Controlled Integration/Controlled Development (CI/CD)'},
+        { text: 'DevOps: SSL Certification and DNS Management'},
+        { text: 'Other: VS Code, Laravel Herd, Livewire, AWS S3, Stipe API payment gateway, regular security maintenance on dozens of sites'}
     ],
   },
   {
@@ -309,6 +311,7 @@ export const experienceData = [
         { text: 'Git for version control'},
         { text: 'Azure DevOps for code reviews' },
         { text: 'Team Foundation Server (TFS)' },
+        { text: 'Other: Windows development environments, Java test suite development, unit testing'}
     ],
   },
   {
@@ -330,6 +333,8 @@ export const experienceData = [
         { text: 'Heroku' },
         { text: 'Jira/Bitbucket for task management and code reviews' },
         { text: 'Figma' },
+        { text: 'Controlled Integration/Controlled Development (CI/CD)'},
+        { text: 'Other: Capybara/Rspec for unit and feature testing, Mac OS Ruby development environments, Stripe API payment gateway'},
     ],
   },
 {
@@ -347,7 +352,7 @@ export const experienceData = [
         { text: 'Git for version control'},
         { text: 'Vuforia for Augmented Reality development' },
         { text: 'Microsoft Visio for creating program flow and logic documentation' },
-        { text: 'Lua scripting language'}
+        { text: 'Other: Lua scripting language'},
     ],
   },
   {
@@ -362,11 +367,13 @@ export const experienceData = [
         { text: 'Laravel MVC' },
         { text: 'JavaScript' },
         { text: 'Custom CSS' },
+        { text: 'Vue.js'},
         { text: 'Git and Github for version control, code reviews' },
         { text: 'Umbraco (CMS content management system)' },
         { text: 'C#, SQL and configuaring SQL Server' },
         { text: 'Transferring Adobe Photoshop comments to code' },
         { text: 'Sitefinity and osCommerce content management system (feature updates only)' },
+        { text: 'Other: HTML5 static site development, IIS deployment'},
     ],
   },
     {
@@ -384,6 +391,7 @@ export const experienceData = [
         { text: 'Git for version control' },
         { text: 'SFTP' },
         { text: 'Bitbucket' },
+        { text: 'Other: sole developer on consolidation project'},
     ],
   },
   {
@@ -439,8 +447,9 @@ export const portfolioProjectData = [
     id: 'next_portfolio',
     name: 'Personal Portfolio (2025, built in Next and React)',
     link_text: 'next.brianwardwell.com',
+    technologies: 'Next.js, React.js, Tailwind CSS, custom CSS, Framer Motion',
     url: 'https://developer.brianwardwell.com',
-    description: 'Portfolio website built in 2025 using Next.js/React.js, Tailwind CSS, Framer Motion',
+    description: 'Portfolio website built in 2025 using Next.js/React.js, Tailwind CSS, Framer Motion. This replaced my previous portfolio that was built in Laravel. I realized later on that Laravel wasn\'t the best tool for a straight forward portfolio and I wanted to transition to a new design.',
     images: [
         { image: '/images/projects/nextjsportfolio-01-min.png', image_description: 'Next.js/React.js Portfolio Home' },
         { image: '/images/projects/nextportfolio-mobile-01-min.png', image_description: 'Next.js/React.js Mobile Home' },
@@ -450,8 +459,9 @@ export const portfolioProjectData = [
     id: 'laravel_portfolio',
     name: 'Personal Portfolio (Laravel)',
     link_text: 'portfolio.brianwardwell.com',
-    url: 'https://portfolio.brianwardwell.com',
-    description: 'Portfolio website built in 2017 using Laravel, Bootstrap, custom CSS',
+    technologies: 'Laravel, Bootstrap, custom CSS, JavaScript, MySQL',
+    url: 'https://developer.brianwardwell.com',
+    description: 'Portfolio website built in 2017 using Laravel, Bootstrap, custom CSS. It originally had articles on various different technologies but were removed because it bloated the portfolio site and was confusing to the user.',
         images: [
         { image: '/images/projects/laravelportfolio-01-min.png', image_description: 'Laravel Portfolio Homepage' },
         { image: '/images/projects/laravelportfolio-02-min.png', image_description: 'Laravel Portfolio Experience' },
@@ -460,9 +470,10 @@ export const portfolioProjectData = [
   {
     id: 'music_pavilion',
     name: 'The Music Pavilion',
-    link_text: 'themusicpavilion.com',
-    url: 'https://portfolio.brianwardwell.com',
-    description: 'Music review site built in Umbraco (ASP.NET content management system)',
+    link_text: 'No longer hosted',
+    technologies: 'Umbraco, C#, SQL, custom CSS, JavaScript',
+    url: '',
+    description: 'The Music Pavilion was built in Umbraco (C#/ASP.NET content management system) to replace my previous music blog, Musicbytes that was built in WordPress. I chose Umbraco because I fell in love with it when building a custom marketing site for a client. I am now rebuilding this site in WordPress to keep it on a shared server and save on server costs',
     images: [
         { image: '/images/projects/themusicpavilion-01-min.png', image_description: 'The Music Pavilion Homepage' },
         { image: '/images/projects/themusicpavilion-02-min.png', image_description: 'The Music Pavilion About' },
@@ -471,9 +482,10 @@ export const portfolioProjectData = [
   {
     id: 'musicbytes',
     name: 'Musicbytes',
-    link_text: 'themusicpavilion.com',
+    link_text: 'No longer hosted',
+    technologies: 'WordPress, custom CSS, jQuery',
     url: '',
-    description: 'Music review site built in Umbraco (ASP.NET content management system)',
+    description: 'I love music and wanted to have a place for a music blog. This originally started as a barebones school project in 2014. I then added a different design, content, and lighthouse for images.',
     images: [
         { image: '/images/projects/musicbytes-01-min.png', image_description: 'Musicbytes Homepage' },
     ],
@@ -482,8 +494,9 @@ export const portfolioProjectData = [
     id: 'portolio_original',
     name: 'Original Portfolio',
     link_text: 'brianwardwell.net',
+    technologies: 'PHP, JavaScript, jQuery, custom CSS, MySQL',
     url: 'https://brianwardwell.net',
-    description: 'My first portfolio from 2014 in vanilla PHP, custom CSS, JavaScript, and using MySQL',
+    description: 'My first portfolio from 2014 in vanilla PHP, custom CSS, JavaScript, and using MySQL. The site is still hosted on my server and includes a jQuery hide/show list for academics.',
     images: [
         { image: '/images/projects/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Homepage' },
         { image: '/images/projects/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Academics' },
@@ -491,9 +504,10 @@ export const portfolioProjectData = [
   },
   {
     id: 'events_next_api',
-    name: 'Events API (Next.js)',
-    link_text: 'brianwardwell.net',
+    name: 'Events API (Next.js/React.js)',
+    link_text: 'In Development',
+    technologies: 'Next.js, React.js, API development, custom CSS',
     url: 'https://brianwardwell.net',
-    description: 'Work in progress, images coming soon. Personal API project',
+    description: 'Work in progress, images coming soon. Personal API project being built in Next.js and React.js with custom API endpoints and CSS.',
   },
 ]

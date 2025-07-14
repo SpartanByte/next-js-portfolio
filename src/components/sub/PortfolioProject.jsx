@@ -30,12 +30,13 @@ const PortfolioProject = ({ data, index }) => {
           </a>
         ))}
       </div>
-      <h2 className="text-2xl sm:text-xl font-bold">{data.name}</h2>
-      <h3>
-        <a href={data.url} target="_blank" rel="noopener noreferrer">
+      <h2 className="lg:text-3xl text-xl font-bold pb-4">{data.name}</h2>
+      <h3 className="text-xl sm:text-xl font-bold">Technologies: {data.technologies}</h3>
+      <h4>
+        <a className="text-lg" href={data.url} target="_blank" rel="noopener noreferrer">
           {data.link_text}
         </a>
-      </h3>
+      </h4>
       <p className='mb-3'>{data.description}</p>
     </div>
   );
