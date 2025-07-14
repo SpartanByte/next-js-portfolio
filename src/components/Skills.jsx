@@ -94,12 +94,12 @@ const variants = {
                 ))}
         </div>
         <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
-            {otherSkillsAndToolsData.map((item, i) => (
-                <div className="ml-4">
-                    <p className="font-bold">{item.name}</p>
+            {otherSkillsAndToolsData.map((item, index) => (
+                <div className="ml-4" key={index}>
+                    <p className="font-bold" key={index}>{item.name}</p>
                     <ul className="list-disc">
                         {item.skill_items.map((skillItem, i) => (
-                            <li className="ml-4" key={i}>
+                            <li className="ml-4" index={i} key={i}>
                                 {skillItem.text}
                             </li>
                         ))}

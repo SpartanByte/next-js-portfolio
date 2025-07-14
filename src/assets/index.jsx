@@ -411,8 +411,12 @@ export const portfolioProjectData = [
     id: 'next_portfolio',
     name: 'Personal Portfolio (2025, built in Next and React)',
     link_text: 'next.brianwardwell.com',
-    url: 'https://next.brianwardwell.com',
+    url: 'https://developer.brianwardwell.com',
     description: 'Portfolio website built in 2025 using Next.js/React.js, Tailwind CSS, Framer Motion',
+    images: [
+        { image: '/project-images/laravelportfolio-01.png', image_description: 'something here' },
+        { image: '/project-images/laravelportfolio-02.png', image_description: 'something here' },
+    ],
   },
   {
     id: 'laravel_portfolio',
