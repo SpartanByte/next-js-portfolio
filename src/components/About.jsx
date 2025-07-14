@@ -9,10 +9,10 @@ const About = () => {
         <div id="about" className="min-h-screen flex flex-col items-center justify-start">
             <SectionHeading text={'About Me'} />
             <Image
-                src={'/hero-images/laptopcoffee-001.jpg'}
+                src={'/images/about-collage.png'}
                 alt="About Image"
-                width={400}
-                height={400}
+                width={890}
+                height={500}
             />
             <section className="background mb-14">
                 <div className="flex items-center justify-between md:justify-center">

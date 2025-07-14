@@ -32,7 +32,7 @@ export const socialEmailIcons = [
 ]
 
 // Background Images
-export const laptopCoffeeAboveImage = '/hero-images/laptopcoffee-001.jpg'
+export const laptopCoffeeAboveImage = '/images/heroimage-laptopcoffee-001.jpg'
 
 // Toggle
 import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
@@ -414,8 +414,8 @@ export const portfolioProjectData = [
     url: 'https://developer.brianwardwell.com',
     description: 'Portfolio website built in 2025 using Next.js/React.js, Tailwind CSS, Framer Motion',
     images: [
-        { image: '/project-images/nextjsportfolio-01-min.png', image_description: 'Next.js/React.js Portfolio Home' },
-        { image: '/project-images/nextportfolio-mobile-01-min.png', image_description: 'Next.js/React.js Mobile Home' },
+        { image: '/images/projects/nextjsportfolio-01-min.png', image_description: 'Next.js/React.js Portfolio Home' },
+        { image: '/images/projects/nextportfolio-mobile-01-min.png', image_description: 'Next.js/React.js Mobile Home' },
     ],
   },
   {
@@ -425,8 +425,8 @@ export const portfolioProjectData = [
     url: 'https://portfolio.brianwardwell.com',
     description: 'Portfolio website built in 2017 using Laravel, Bootstrap, custom CSS',
         images: [
-        { image: '/project-images/laravelportfolio-01-min.png', image_description: 'Laravel Portfolio Homepage' },
-        { image: '/project-images/laravelportfolio-02-min.png', image_description: 'Laravel Portfolio Experience' },
+        { image: '/images/projects/laravelportfolio-01-min.png', image_description: 'Laravel Portfolio Homepage' },
+        { image: '/images/projects/laravelportfolio-02-min.png', image_description: 'Laravel Portfolio Experience' },
     ],
   },
   {
@@ -436,8 +436,8 @@ export const portfolioProjectData = [
     url: 'https://portfolio.brianwardwell.com',
     description: 'Music review site built in Umbraco (ASP.NET content management system)',
     images: [
-        { image: '/project-images/themusicpavilion-01-min.png', image_description: 'The Music Pavilion Homepage' },
-        { image: '/project-images/themusicpavilion-02-min.png', image_description: 'The Music Pavilion About' },
+        { image: '/images/projects/themusicpavilion-01-min.png', image_description: 'The Music Pavilion Homepage' },
+        { image: '/images/projects/themusicpavilion-02-min.png', image_description: 'The Music Pavilion About' },
     ],
   },
   {
@@ -447,7 +447,7 @@ export const portfolioProjectData = [
     url: '',
     description: 'Music review site built in Umbraco (ASP.NET content management system)',
     images: [
-        { image: '/project-images/musicbytes-01-min.png', image_description: 'Musicbytes Homepage' },
+        { image: '/images/projects/musicbytes-01-min.png', image_description: 'Musicbytes Homepage' },
     ],
   },
   {
@@ -457,8 +457,8 @@ export const portfolioProjectData = [
     url: 'https://brianwardwell.net',
     description: 'My first portfolio from 2014 in vanilla PHP, custom CSS, JavaScript, and using MySQL',
     images: [
-        { image: '/project-images/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Homepage' },
-        { image: '/project-images/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Academics' },
+        { image: '/images/projects/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Homepage' },
+        { image: '/images/projects/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Academics' },
     ],
   },
   {

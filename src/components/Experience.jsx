@@ -1,10 +1,9 @@
 'use client'
 import SectionHeading from './sub/SectionHeading'
-import Image from 'next/image'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import { useRef } from 'react'
 
-import { experienceData, arrowLeftIcon } from '../assets'
+import { experienceData } from '../assets'
 
 const Experience = () => {
   const date = new Date().getFullYear()
