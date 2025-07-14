@@ -57,7 +57,7 @@ const Experience = () => {
                   <li>{item.location}</li>
                   <li>{item.dates_start_end}</li>
                 </ul>
-                <p>Tools and Technologies:</p>
+                <p>Tools, Skills and Technologies:</p>
                 <ul className="ml-4 list-disc">
                   {item.tools.map((toolItem, index) => (
                     <li className="ml-4" key={index}>
