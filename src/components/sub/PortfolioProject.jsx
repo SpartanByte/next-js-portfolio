@@ -18,7 +18,7 @@ const PortfolioProject = ({ data, index }) => {
       { /* image_description, fallback to project name, then generic */ }
       <div className="flex pb-4">
         {data?.images?.map((imageItem, i) => (
-          <a href={imageItem.image} className="mr-3">
+          <a href={imageItem.image} className="mr-3" key={i}>
             <Image
               src={imageItem.image}
               alt={imageItem.image_description || data.name || 'Project Image'}
