@@ -1,10 +1,9 @@
 'use client'
 import SectionHeading from './sub/SectionHeading'
-import Image from 'next/image'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import { useRef } from 'react'
 
-import { experienceData, arrowLeftIcon } from '../assets'
+import { experienceData } from '../assets'
 
 const Experience = () => {
   const date = new Date().getFullYear()
@@ -45,7 +44,7 @@ const Experience = () => {
 
             {/* check for Other Noteworthy Roles header */}
             {item.summary_header ? (
-              <h1 className="font-bold text-xl sm:text-lg text-gray-700 dark:text-white">{item.summary_header}</h1>
+              <h2 className="font-bold text-xl sm:text-lg text-gray-700 dark:text-white">{item.summary_header}</h2>
             ) : (
               null
             )}
@@ -58,7 +57,7 @@ const Experience = () => {
                   <li>{item.location}</li>
                   <li>{item.dates_start_end}</li>
                 </ul>
-                <p>Tools and Technologies:</p>
+                <p>Tools, Skills and Technologies:</p>
                 <ul className="ml-4 list-disc">
                   {item.tools.map((toolItem, index) => (
                     <li className="ml-4" key={index}>
