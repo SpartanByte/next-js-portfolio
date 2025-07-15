@@ -499,7 +499,7 @@ export const portfolioProjectData = [
     description: 'My first portfolio from 2014 in vanilla PHP, custom CSS, JavaScript, and using MySQL. The site is still hosted on my server and includes a jQuery hide/show list for academics.',
     images: [
         { image: '/images/projects/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Homepage' },
-        { image: '/images/projects/vanillaphpportfolio-01-min.png', image_description: 'Vanilla PHP Portfolio Academics' },
+        { image: '/images/projects/vanillaphpportfolio-02-min.png', image_description: 'Vanilla PHP Portfolio Academics' },
     ],
   },
   {
