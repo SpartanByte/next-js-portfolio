@@ -290,7 +290,7 @@ export const experienceData = [
         { text: 'Runcloud' },
         { text: 'Controlled Integration/Controlled Development (CI/CD)'},
         { text: 'DevOps: SSL Certification and DNS Management'},
-        { text: 'Other: VS Code, Laravel Herd, Livewire, AWS S3, Stipe API payment gateway, regular security maintenance on dozens of sites'}
+        { text: 'Other: VS Code, Laravel Herd, Livewire, AWS S3, Stripe API payment gateway, regular security maintenance on dozens of sites'}
     ],
   },
   {
