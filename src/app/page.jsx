@@ -40,6 +40,11 @@ export default function Home() {
     <>
       <Load />
       <Toggle>
+         {/* Structured data (JSON-LD) for SEO and rich results. Update URLs/socials as needed. */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+         
+        }) }} />
         <Navbar id={id} />
         <div className="w-75 md:w-full h-full flex flex-col justify-between ml-20 px-2 py-10 xl:py-6 z-10" ref={compsRef}>
           <Hero />
