@@ -8,6 +8,34 @@ Current Portfolio (Built in Laravel, Blade and CSS) ==> [portfolio.brianwardwell
 - This application will replace the above Laravel portfolio
 - This application is using React.js, Next.js, Typescript, Tailwind CSS, Framer Motion
 
+```
+next-js-portfolio/
+├── app/
+|   └── page.jsx
+|   └── index.jsx
+|   └── globals.css
+├── assets/
+|   └── index.jsx
+├── components/
+│   └── sub/
+|       └── AnimatedNavLink.jsx
+|       └── Load.jsx
+|       └── PortfolioProject.jsx
+|       └── SectionHeading.jsx
+|       └── Toggle.jsx
+|   └── About.jsx
+|   └── Experience.jsx
+│   └── Footer.jsx
+│   └── Hero.jsx
+│   └── Navbar.jsx
+│   └── Project.jsx
+│   └── Skills.jsx
+├── eslint.config.mjs
+├── postcss.config.mjs
+├── tailwind.config.js
+├── package.json
+└── README.md
+``` 
 
 <hr>
 
