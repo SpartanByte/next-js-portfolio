@@ -46,7 +46,7 @@ export default function Home() {
           "@graph": [
             {
               "@type": "Person",
-              "@id": "https://developer.brianwardwell.com",
+              "@id": "https://developer.brianwardwell.com#person",
               "name": "Brian Wardwell",
               "givenName": "Brian",
               "familyName": "Wardwell",
