@@ -70,6 +70,18 @@ export default function Home() {
                 "target": "https://developer.brianwardwell.com/?s={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.linkedin.com/in/briantwardwell/#website",
+              "url": "https://www.linkedin.com/in/briantwardwell/",
+              "name": "Brian Wardwell — LinkedIn",
+              "publisher": { "@id": "https://www.linkedin.com/in/briantwardwell/#person" },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.linkedin.com/in/briantwardwell?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
             }
           ]
         }) }} />
