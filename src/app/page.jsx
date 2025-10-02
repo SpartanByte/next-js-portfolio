@@ -40,7 +40,7 @@ export default function Home() {
     <>
       <Load />
       <Toggle>
-         {/* Structured data (JSON-LD) for SEO and rich results. Update URLs/socials as needed. */}
+         {/* Structured data (JSON-LD) for SEO and rich results. */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@graph": [
@@ -75,24 +75,21 @@ export default function Home() {
               "@type": "WebSite",
               "@id": "https://www.linkedin.com/in/briantwardwell/#website",
               "url": "https://www.linkedin.com/in/briantwardwell/",
-              "name": "Brian Wardwell — LinkedIn",
-              "publisher": { "@id": "https://www.linkedin.com/in/briantwardwell/#person" },
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://www.linkedin.com/in/briantwardwell?s={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            },
-            {
-              "@type": "WebSite",
-              "@id": "https://github.com/spartanbyte/#website",
-              "url": "https://github.com/spartanbyte/",
-              "name": "Brian Wardwell — LinkedIn",
-              "publisher": { "@id": "https://github.com/spartanbyte/#person" },
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://github.com/spartanbyte?s={search_term_string}",
-                "query-input": "required name=search_term_string"
+              "name": "Brian Wardwell",
+              "publisher": {
+                "@type": "Person",
+                "@id": "https://developer.brianwardwell.com/#person", 
+                "name": "Brian Wardwell",
+                "sameAs": [
+                  "https://www.linkedin.com/in/briantwardwell", 
+                  "https://github.com/briantwardwell",
+                  "https://stackoverflow.com/users/7168765/jeepers-brian",
+                ],
+                  "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://www.linkedin.com/in/briantwardwell?s={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
               }
             }
           ]
