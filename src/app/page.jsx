@@ -82,6 +82,18 @@ export default function Home() {
                 "target": "https://www.linkedin.com/in/briantwardwell?s={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://github.com/spartanbyte/#website",
+              "url": "https://github.com/spartanbyte/",
+              "name": "Brian Wardwell — LinkedIn",
+              "publisher": { "@id": "https://github.com/spartanbyte/#person" },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://github.com/spartanbyte?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
             }
           ]
         }) }} />
