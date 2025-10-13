@@ -1,11 +1,9 @@
 'use client'
 import { useState, useRef, useEffect } from 'react'
 import { portfolioProjectData } from '../assets'
-import { animate, motion } from 'framer-motion'
 
 import PortfolioProject from './sub/PortfolioProject'
 import SectionHeading from './sub/SectionHeading'
-
 
 const Projects = () => {
     return(

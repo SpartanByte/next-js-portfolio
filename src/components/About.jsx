@@ -10,7 +10,7 @@ const About = () => {
             <SectionHeading text={'About Me'} />
             <Image
                 src={'/images/about-collage.png'}
-                alt="About Image"
+                alt="Portrait image of Brian Wardwell"
                 width={890}
                 height={500}
             />
