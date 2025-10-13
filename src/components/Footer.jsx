@@ -45,7 +45,7 @@ const Footer = () => {
             About
           </AnimatedNavLink>
         </motion.div>
-  <motion.div
+        <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}

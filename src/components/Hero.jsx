@@ -51,10 +51,10 @@ const Hero = () => {
         >
             <div>
                 <motion.div
-                initial={{ opacity: 0, y: -100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
-                className="max-w-[75vw] flex flex-col items-center justify-center gap-y-3 font-light capitalize"
+                    initial={{ opacity: 0, y: -100 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5 }}
+                    className="max-w-[75vw] flex flex-col items-center justify-center gap-y-3 font-light capitalize"
                 >
                 <motion.div
                     className="flex items-center justify-center"
