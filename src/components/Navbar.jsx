@@ -20,7 +20,7 @@ const Navbar = ({ id }) => {
                             style={{ width: '32px', height: '32px' }}
                         />
                         </span>
-                        <span className="text-[10px] tracking-wide opacity-100 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 text-center dark:text-white">
+                        <span className="text-[10px] tracking-wide opacity-100 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 text-center dark:text-white capitalize">
                             {item.id}
                         </span>
                     </a>

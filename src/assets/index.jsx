@@ -272,6 +272,25 @@ export const experienceData = [
   {
     id: 'one',
     summary_header: '',
+    title: 'Full Stack Web Developer',
+    company: 'Promotional Management Center (PMC)',
+    location: 'Stacy, Minnesota',
+    dates_start_end: '10/2025 - 02/2026',
+    description: 'Developed new WordPress sites, new functionality, break/fix support for multiple clients in the WordPress CMS including custom plugins, custom functionality for third party plugins and performing regular maintenance and security checks. Enhanced functionality of two Laravel applications also using Vue.js, Laravel Nova, and Tailwind CSS. Performed DevOps duties for site migrations, database and server setup, DNS configuration and SSL certificates.',
+    tools: [
+        { text: 'Symfony' },
+        { text: 'CakePHP' },
+        { text: 'Stimulus.js' },
+        { text: 'JavaScript ES6+' },
+        { text: 'Sass, Bootstrap' },
+        { text: 'Twig' },
+        { text: 'Git/Bitbucket for version control' },
+        { text: 'Other: database mangement, AWS EC2'},
+    ],
+  },
+  {
+    id: 'two',
+    summary_header: '',
     title: 'Software Engineer',
     company: 'LuminFire',
     location: 'Minneapolis, Minnesota',
@@ -287,14 +306,13 @@ export const experienceData = [
         { text: 'API Integration' },
         { text: 'Laravel' },
         { text: 'Vue.js'},
-        { text: 'Runcloud' },
         { text: 'Controlled Integration/Controlled Development (CI/CD)'},
         { text: 'DevOps: SSL Certification and DNS Management'},
-        { text: 'Other: VS Code, Laravel Herd, Livewire, AWS S3, Stripe API payment gateway, regular security maintenance on dozens of sites'}
+        { text: 'Other: VS Code, Laravel Herd, Livewire, AWS S3, Stripe API payment gateway, regular security maintenance'},
     ],
   },
   {
-    id: 'two',
+    id: 'three',
     summary_header: '',
     title: 'Web Developer (Contract)',
     company: 'Experis at Winnebago',
@@ -315,7 +333,7 @@ export const experienceData = [
     ],
   },
   {
-    id: 'three',
+    id: 'four',
     summary_header: '',
     title: 'Software Engineer',
     company: 'Codelation',
@@ -338,7 +356,7 @@ export const experienceData = [
     ],
   },
 {
-    id: 'four',
+    id: 'five',
     summary_header: '',
     title: 'Software Engineer I',
     company: 'New Vision',
@@ -356,7 +374,7 @@ export const experienceData = [
     ],
   },
   {
-    id: 'five',
+    id: 'six',
     summary_header: '',
     title: 'Web Developer',
     company: 'Insight Technologies',
@@ -377,7 +395,7 @@ export const experienceData = [
     ],
   },
     {
-    id: 'six',
+    id: 'seven',
     summary_header: '',
     title: 'Web Developer (Contract)',
     company: 'Preference Employment Solutions at Dakota Supply Group',
@@ -395,7 +413,7 @@ export const experienceData = [
     ],
   },
   {
-    id: 'seven',
+    id: 'eight',
     summary_header: '',
     title: 'Support Engineer (Contract: Yammer, SharePoint Online',
     company: 'VMC Consulting at Microsoft',
@@ -413,7 +431,7 @@ export const experienceData = [
     ],
   },
   {
-    id: 'eight',
+    id: 'nine',
     summary_header: 'Other Noteworthy Role',
     title: 'Inbound Order Representative',
     company: 'Swanson Health Products',
@@ -428,7 +446,7 @@ export const experienceData = [
     ],
   },
   {
-    id: 'nine',
+    id: 'ten',
     summary_header: 'Other Noteworthy Role',
     title: 'Relay Communications Specialist',
     company: 'Communication Services for the Deaf',
@@ -438,6 +456,19 @@ export const experienceData = [
         tools: [
         { text: 'Customer Service' },
         { text: 'Team Training' },
+    ],
+  },
+  {
+    id: 'eleven',
+    summary_header: 'Career Break',
+    title: '-- --',
+    company: 'Communication Services for the Deaf',
+    location: 'Moorhead, Minnesota',
+    dates_start_end: '',
+    description: '',
+        tools: [
+        // { text: 'Customer Service' },
+        // { text: 'Team Training' },
     ],
   },
 ]
