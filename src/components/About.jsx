@@ -31,8 +31,8 @@ const About = () => {
 		
                         <p>I enrolled in college in 2012, putting my personal life on hold, to obtain the skills and project experience for computer programming and web development. My professors and instructions at Minnesota State Community and Technical College were amazing and their teaching styles were both empathetic and challenging. Main studies included: HTML5/CSS, Adobe Photoshop, JavaScript, PHP, MySQL, Python, Adobe Dreamweaver, Web Development Strategies & Practices, Computer Management Systems (WordPress), Microcomputer Databases, Ecommerce Principles, User Interface & User Experience Design, Search Engine Optimization, and Web Applications Programming (which included many different JavaScript "recipes" in different libraries such as Handlebars). In addition to technical courses, I studied College Writing, Technical Writing, and InterPersonal Communication.</p>
 
-                        <details>
-                            <summary className="mb-4">View More Background</summary>
+                        <details className="group">
+                            <summary className="mb-4 after:content-['Show_More_Background'] group-open:after:content-['Hide_More_Background']"></summary>
                                 <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
                                     <p>After gradutating with my Associates of Applied Science (with extra credits for Python and Microcomputer Databases) and while working at Microsoft as a Support Engineer, I took some formal classes that focused on Object Oriented Programming at Hennipen Technical College. Though it didn't result in a degree, the courses were valuable in teaching me OOP in Java, C#, more SQL and database design, and a little C++.</p>
                                 

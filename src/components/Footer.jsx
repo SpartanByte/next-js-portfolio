@@ -41,7 +41,7 @@ const Footer = () => {
             Projects
           </AnimatedNavLink>
 
-            <AnimatedNavLink href="#projects" >
+          <AnimatedNavLink href="#about" >
             About
           </AnimatedNavLink>
         </motion.div>
