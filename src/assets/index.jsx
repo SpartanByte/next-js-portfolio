@@ -10,16 +10,16 @@ export const copyRightIcon = <CopyrightLineIcon />
 
 export const socialEmailIcons = [
     {
-    icon: <MailLineIcon />,
-    name: 'Email',
-    href: 'mailto:brianwardwell@brianwardwell.com',
-  },
+      icon: <MailLineIcon />,
+      name: 'Email',
+      href: 'mailto:brianwardwell@brianwardwell.com',
+    },
     {
-    icon: <LinkedinBoxLineIcon />,
-    name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/briantwardwell/',
+      icon: <LinkedinBoxLineIcon />,
+      name: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/briantwardwell/',
   },
-{
+  {
     icon: <GithubLineIcon />,
     name: 'GitHub',
     href: 'https://github.com/spartanbyte/',
@@ -65,7 +65,7 @@ export const navbarData = [
     name: 'Home',
     icon: '/icons/png/interface/home.png',
   },
-    {
+  {
     id: 'skills',
     name: 'Skills',
     icon: '/icons/png/interface/skills-list.png',
@@ -170,7 +170,7 @@ export const backendSkills = [
     name: 'C#',
     icon:  '/icons/png/technologies/blue/csharp.png',
   },
-{
+  {
     id: 'mysql',
     name: 'MySQL',
     icon:  '/icons/png/technologies/blue/mysql.png',
@@ -394,7 +394,7 @@ export const experienceData = [
         { text: 'Other: HTML5 static site development, IIS deployment'},
     ],
   },
-    {
+  {
     id: 'seven',
     summary_header: '',
     title: 'Web Developer (Contract)',
