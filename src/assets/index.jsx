@@ -458,19 +458,6 @@ export const experienceData = [
         { text: 'Team Training' },
     ],
   },
-  {
-    id: 'eleven',
-    summary_header: 'Career Break',
-    title: '-- --',
-    company: 'Communication Services for the Deaf',
-    location: 'Moorhead, Minnesota',
-    dates_start_end: '',
-    description: '',
-        tools: [
-        // { text: 'Customer Service' },
-        // { text: 'Team Training' },
-    ],
-  },
 ]
 
 export const portfolioProjectData = [
