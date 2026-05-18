@@ -79,7 +79,7 @@ const Hero = () => {
         <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
             Brian Wardwell
         </h1>
-        <p className="text-lg text-center tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
+        <p className="text-sm md:text-lg text-center tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
             Software Development Professional | Problem Solver | Technical Enthusiast
         </p>
         
@@ -105,7 +105,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                className="mt-8 flex flex-col md:flex-row lg:flex-row  justify-center gap-x-10 text-1xl sm:text-xl"
+                className="mt-8 flex flex-col md:flex-row lg:flex-row justify-center gap-x-10 text-1xl sm:text-xl"
             >
                 <AnimatedNavLink href="#skills" >
                     Skills

@@ -18,7 +18,7 @@ const Experience = () => {
   const scrollY = useSpring(scrollYProgress, { stiffness: 200, damping: 20 })
   return (
 
-      <div id="experience" className="min-h-screen relative py-20 flex flex-col items-center justify-center gap-y-20">
+      <div id="experience" className="min-h-screen relative py-20 flex flex-col items-center justify-start gap-y-5">
       <SectionHeading text={'Professional Experience'} />
         {/* Image to correspond with experience*/}
         <div
