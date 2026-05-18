@@ -70,7 +70,7 @@ const variants = {
                 ))}
         </div>
           <h2>Cloud Services</h2>
-            <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
+            <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-5 lg:gap-y-6">
                 {cloudServicesData.map((item, i) => (
                     <motion.div
                         custom={i}
@@ -95,7 +95,7 @@ const variants = {
         </div>
         <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-5 lg:gap-y-6">
             {otherSkillsAndToolsData.map((item, index) => (
-                <div className="w-full md:w-64 flex flex-col items-center justify-center gap-x-3 gap-y-5 rounded-xl border border-opacity-10 px-5 py-2 lg:px-2" key={index}>
+                <div className="w-full md:w-64 flex flex-col items-center gap-x-3 gap-y-5 rounded-xl border border-opacity-10 px-5 py-2 lg:px-2" key={index}>
                     <p className="font-bold" key={index}>{item.name}</p>
                     <ul className="list-disc">
                         {item.skill_items.map((skillItem, i) => (
