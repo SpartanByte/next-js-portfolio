@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
-import { laptopCoffeeAboveImage } from '../assets'
+import { laptopCoffeeAboveImage, staticHeaderAnimatedImage } from '../assets'
 import Script from 'next/script'
 
 const geistSans = Geist({
@@ -24,14 +24,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={outfit.className}>
-        {/* Background Image Div */}
+        {/* Background Image Div Animation */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url('${laptopCoffeeAboveImage}')` }}
-        ></div>
+          style={{ backgroundImage: `url('${staticHeaderAnimatedImage}')`}}
+        >
+        </div>
+        {/* Background Image Div Main Hero*/}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-50"
+          style={{ backgroundColor: 'transparent', backgroundImage: `url('${laptopCoffeeAboveImage}')` }}
+        >
+        </div>
         {/* Overlay Div */}
         <div className="absolute inset-0 bg-black/70"></div>
+        <div className="bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url('${staticHeaderAnimatedImage}')` }} >
         {children}
+        </div>
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-15V33GPK3X"
