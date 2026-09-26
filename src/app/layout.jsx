@@ -26,8 +26,8 @@ export default function RootLayout({ children }) {
       <body className={outfit.className}>
         {/* Background Image Div Animation */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ border: `1px solid #ccc`, backgroundImage: `url('${staticHeaderAnimatedImage}')`}}
+          className="absolute inset-0 bg-cover bg-center bg-repeat-y"
+          style={{ backgroundImage: `url('${staticHeaderAnimatedImage}')`}}
         >
         </div>
         {/* Background Image Div Main Hero*/}
@@ -38,11 +38,8 @@ export default function RootLayout({ children }) {
         </div>
         {/* Overlay Div */}
         <div className="absolute inset-0 bg-black/70"></div>
-        
-        <div className="bg-cover bg-center bg-no-repeat"
-          style={{ border: `1px solid blue`, backgroundImage: `url('${staticHeaderAnimatedImage}')` }} >
-            {children}
-        </div>
+        {children}
+        {/* Footer */}
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-15V33GPK3X"

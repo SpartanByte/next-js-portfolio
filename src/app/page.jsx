@@ -11,6 +11,7 @@ import Skills from '../components/Skills'
 import Toggle from '../components/sub/Toggle'
 
 import { useState, useRef, useEffect } from 'react'
+import { laptopCoffeeAboveImage, staticHeaderAnimatedImage } from '../assets'
 
 export default function Home() {
   const [id, setId] = useState(0)
@@ -97,18 +98,11 @@ export default function Home() {
         <Navbar id={id} />
         <div className="w-75 md:w-full h-full flex flex-col justify-between ml-20 px-2 py-10 xl:py-6 z-10" ref={compsRef} >
           <Hero />
-            <div className="xl:w-full mx-auto xl:px-[90px] sm:pl-[80px] sm:pr-5 overflow-hidden" style={{ border: '2px solid red', padding: '20px', backgroundColor: 'rgba(39,39,42,0.6)'  }}> 
-          {/* Background Image Div Animation */}
-                 {/*<div
-                    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('${staticHeaderAnimatedImage}')`}}
-                  >
-                  </div>*/}
-
-            <Skills />
-            <Experience />
-            <Projects />
-            <About />
+            <div className="xl:w-full mx-auto xl:px-[90px] sm:pl-[80px] sm:pr-5 overflow-hidden" style={{ padding: '20px', backgroundColor: 'rgba(39,39,42,0.6)'  }}> 
+              <Skills />
+              <Experience />
+              <Projects />
+              <About />
             </div> 
           <Footer />
         </div>
