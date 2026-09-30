@@ -37,7 +37,7 @@ const Toggle = ({ children }) => {
   return (
     <main ref={mainRef}>
       <div className="bg-zinc-50 dark:bg-zinc-800 opacity-100">
-        <div className="max-w-[1200px] xl:w-full mx-auto flex justify-center xl:px-[90px] sm:pl-[80px] sm:pr-5 overflow-hidden bg-zinc-50 dark:bg-zinc-800" style={{ border: '2px solid red' }}>
+        <div className="max-w-[1200px] xl:w-full mx-auto flex justify-center xl:px-[90px] sm:pl-[80px] sm:pr-5 overflow-hidden bg-zinc-50 dark:bg-zinc-800">
           <button
             onClick={() => {
               if (!darkTheme) {
