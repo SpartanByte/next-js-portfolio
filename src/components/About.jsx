@@ -19,7 +19,7 @@ const About = () => {
                     <div className="flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
                         <p>Hello, my name is Brian Wardwell and was born and raised in Fargo, North Dakota. In 2020, my wife, son and I moved to the greater Minneapolis/St. Paul area. Moving during the pandemic had its own unique challenges but it was certainly exciting. I grew up going to the "cabin country" region of Minnesota and have always loved the lakes, walking in state parks, camping, and so on. We're massive Minnesota Wild fans, so that didn't hurt. We have two furry family members, Frankie (shih tzu) and Zimmer (chihuahua mix), as well as two corn snakes (Checkers and Rob) and one ball python (Django, named after the Python web framework).</p>
 
-                        <p>I also love concerts, art, and other interesting events such as the Minnesota Renaissance Festival (yes, I dress up). I adore Halloween and have been planning this year, 2025, to not only have regular decorations but designing "DIY" decorations. We also enjoy visiting Fargo as well since we both have family there.</p> 
+                        <p>I also love concerts, art, and other interesting events such as the Minnesota Renaissance Festival (yes, I dress up). I adore Halloween and have been planning this yearto not only have regular decorations but designing "DIY" decorations. We also enjoy visiting Fargo as well since we both have family there.</p> 
                     </div>
                 </div>
             </section>
