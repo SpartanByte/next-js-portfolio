@@ -1,6 +1,4 @@
 'use client'
-import { useState, useRef, useEffect } from 'react'
-import { portfolioProjectData } from '../assets'
 import { animate, motion } from 'framer-motion'
 import AnimatedNavLink from './sub/AnimatedNavLink'
 import { arrowUpLineIcon } from '../assets'

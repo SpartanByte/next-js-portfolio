@@ -47,7 +47,7 @@ const Hero = () => {
     return (
         <div
             id="home"
-            className="h-[95vh] grid place-items-center"
+            className="h-[100vh] grid place-items-center"
         >
             <div>
                 <motion.div

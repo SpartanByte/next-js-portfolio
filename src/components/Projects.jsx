@@ -1,5 +1,4 @@
 'use client'
-import { useState, useRef, useEffect } from 'react'
 import { portfolioProjectData } from '../assets'
 
 import PortfolioProject from './sub/PortfolioProject'
